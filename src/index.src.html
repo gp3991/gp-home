@@ -104,7 +104,7 @@ W=window.innerWidth;H=window.innerHeight;
 cv.width=Math.round(W*dpr);cv.height=Math.round(H*dpr);
 ctx.setTransform(dpr,0,0,dpr,0,0);
 ctx.fillStyle='#05070d';ctx.fillRect(0,0,W,H);
-var want=reduce?25:Math.min(90,Math.round(W*H/14000)+20);
+var want=reduce?15:Math.min(45,Math.round(W*H/28000)+10);
 while(objs.length<want)objs.push(new Obj());
 objs.length=want;
 objs.forEach(function(o){
