@@ -108,7 +108,7 @@ export function buildHtml(srcText) {
     '<!doctype html><html><head><meta charset="utf-8">' +
     '<meta name="viewport" content="width=device-width,initial-scale=1">' +
     '<title>gp3991.dev</title></head>' +
-    '<body style="background:#05070d"><noscript>gp3991.dev</noscript>' +
+    '<body style="background:#070a14"><noscript>gp3991.dev</noscript>' +
     `<script>${script}</script></body></html>`
   );
 }
